@@ -1,0 +1,25 @@
+.customInput {
+  width: 100%;
+  position: relative;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1em;
+    margin: auto 0;
+    width: 25px;
+    height: 25px;
+    background: url('../../../../images/iconSearch.png') no-repeat;
+    background-size: cover;
+  }
+
+  .input {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 4em;
+    font-size: 1.5rem;
+    padding: .465em 1em .465em 2em;
+    width: 100%;
+  }
+}

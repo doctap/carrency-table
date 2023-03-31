@@ -1,7 +1,7 @@
-import type { ILink } from '../../types';
-import type { ICompanyAddress, IIconLink, ILinkList } from '../../components/elements';
-import twitter from '../../images/logoTwitter.png';
-import VK from '../../images/logoVK.png';
+import type { ILink } from '../../../types';
+import type { ILinkList, ICompanyAddress, IIconLink } from '../../elements';
+import twitter from '../../../images/logoTwitter.png';
+import VK from '../../../images/logoVK.png';
 
 export const companyAddress: ICompanyAddress = {
   addressCity: 'Россия, г. Москва, 119002',

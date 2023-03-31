@@ -3,8 +3,7 @@ import styles from './App.module.scss';
 import { useAppDispatch, useAppSelector } from './redux/hooks/redux';
 import { showSlice } from './redux/reducers/ExampleSlice';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { PageSearchFooter } from './components/footers';
-import { PageSearchCurrency } from './pages';
+import { PageSearchCurrency } from './components/pages';
 
 function App () {
   const { plusOne, showHideWindow } = showSlice.actions;

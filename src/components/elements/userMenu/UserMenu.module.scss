@@ -1,0 +1,9 @@
+.userMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .avatar {
+    border-radius: 50%;
+  }
+}

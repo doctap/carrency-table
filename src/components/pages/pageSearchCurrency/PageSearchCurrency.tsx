@@ -1,5 +1,4 @@
 import React from 'react';
-import { PageSearchFooter } from '../../components/footers';
 import {
   companyAddress,
   companyLinks,
@@ -7,12 +6,18 @@ import {
   otherLinks,
   socialMediaLinks
 } from './PageProps';
-import darkLogo from '../../images/dark-logo.png';
+import { HeaderSearch } from '../../headers';
+import { PageSearchFooter } from '../../footers';
+import mainLogo from '../../../images/лого.png';
+import darkLogo from '../../../images/dark-logo.png';
+import userAvatar from '../../../images/img-user-account.png';
 
 export const PageSearchCurrency = () => {
   return (
     <div>
-      
+
+      <HeaderSearch avatar={userAvatar} logo={mainLogo} />
+
       <PageSearchFooter
         companyAddress={companyAddress}
         companyLinks={companyLinks}
