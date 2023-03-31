@@ -1,0 +1,63 @@
+.goldBackground {
+  background: #FDD446;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2.688em 7em 0 7em;
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+
+    .contacts {
+      font-size: 1.125rem;
+      
+      .CompanyAddress {
+        margin-bottom: 2.5em;
+      }
+
+      .socialMediaLinks {
+        &>* {
+          margin-right: 1.45em;
+        }
+      }
+    }
+
+    .linkColumns {
+      display: flex;
+      justify-content: space-between;
+      width: 51%;
+
+      .NFT {
+        width: 7.5em;
+        font-weight: 400;
+      }
+
+      .otherLinks {
+        width: 13em;
+      }
+    }
+  }
+
+  .footerBottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.399);
+    height: 81px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    .star {
+      position: absolute;
+      bottom: 0;
+    }
+
+    .Inc {
+      position: absolute;
+      right: 0;
+      top: 19px;
+      font-size: 1.125rem;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
