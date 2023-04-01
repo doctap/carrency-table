@@ -9,6 +9,7 @@ export const UserMenu = (prop: IUserMenu) => {
   return (
     <div className={styles.userMenu}>
       <img className={styles.avatar} src={prop.avatar} alt='user' />
+      <button className={styles.showMenu}>&#9660;</button>
     </div>
   );
 };

@@ -1,0 +1,9 @@
+.table {
+  width: 100%;
+
+  .row {
+    &:nth-of-type(-n+5) {
+      background-color: blue;
+    }
+  }
+}

@@ -1,8 +1,8 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
-import showSlice from '../reducers/ExampleSlice';
+import CurrencySlice from '../reducers/CurrencySlice';
 
 const rootReducer = combineReducers({
-  showSlice
+  CurrencySlice
 });
 
 export const setupStore = () => {

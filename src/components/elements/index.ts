@@ -5,3 +5,5 @@ export * from './socialMediaIcons/SocialMediaIcons';
 export * from './iconLink/IconLink';
 export * from './inputs/searchInput/SearchInput';
 export * from './userMenu/UserMenu';
+export * from './dropDownLists/select/Select';
+export * from './panels/panelManageList/PanelManageList';

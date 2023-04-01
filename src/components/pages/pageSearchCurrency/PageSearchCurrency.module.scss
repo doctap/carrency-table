@@ -1,0 +1,28 @@
+.pageSearchCurrency {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .page {
+    padding: 0 3em;
+    min-height: 100vh;
+
+    .HeaderSearch {
+      margin-bottom: 2.3em;
+    }
+
+    .PanelManageList {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2em;
+    }
+
+    .main {
+      min-height: 50%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2em;
+    }
+  }
+}
