@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './PageSearchFooter.module.scss';
 import { CompanyAddress, LinkList, SocialMediaIcons } from '../../elements';
 import type { ICompanyAddress, IIconLink, ILinkList } from '../../elements';
 import { Logo } from '../../elements/logo/Logo';
 import star from '../../../images/star.png';
 import type { ILink } from '../../../types';
+import styles from './PageSearchFooter.module.scss';
 
 export interface IPageSearchFooter {
   companyAddress: ICompanyAddress
@@ -39,7 +39,9 @@ export const PageSearchFooter = (props: IPageSearchFooter) => {
             <LinkList header={props.nftLinks.header} links={props.nftLinks.links} />
           </div>
 
-          <LinkList header={props.companyLinks.header} links={props.companyLinks.links} />
+          <div>
+            <LinkList header={props.companyLinks.header} links={props.companyLinks.links} />
+          </div>
 
           <div className={styles.otherLinks}>
             <LinkList header={props.otherLinks.header} links={props.otherLinks.links} />

@@ -29,6 +29,11 @@
       justify-content: space-between;
       width: 51%;
 
+      & > * {
+        min-width: 8em;
+        margin-right: 1em;
+      }
+
       .NFT {
         width: 7.5em;
         font-weight: 400;
